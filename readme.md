@@ -66,3 +66,13 @@ Bindings
 * Toggle TagBar: `<space>s`
 * Toggle GUndo tree: `<space>g`
 * Trigger Makefile: `m<return>`
+
+Custom Binding
+--------------
+
+" Custom mappings for tab navigation using Shift + Left/Right Arrow
+" <S-Left> maps Shift + Left Arrow to go to the previous tab
+nnoremap <S-Left> :tabprevious<CR>
+
+" <S-Right> maps Shift + Right Arrow to go to the next tab
+nnoremap <S-Right> :tabnext<CR>
